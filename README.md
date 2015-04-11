@@ -1,5 +1,5 @@
 # IconColorChanger
-This is the sample activity class to change the color of the icons in drawable from one color to another color programmatically. 
+This is the sample activity class to generate colors for icons using hex codes. 
 
 Note: Icons with white color can only be transformed.
 
