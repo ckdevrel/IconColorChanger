@@ -23,7 +23,7 @@ public class IconChangerActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       //Assigning ids to the views
+       //Assigning ids to the views used in the project
         findViews();
 
 
