@@ -1,11 +1,5 @@
 # IconColorChanger
 This is the sample activity class to change the color of the icons in drawable from one color to another color programmatically. 
-
-Note: 
-
-1. Only icons with white color can only be transformed.
-
-2. The Icons will be transformed with proper hex color codes only.
-Now changing the color of icons has become easy without keeping multiple images in the drawable folders.
+Note: Icons with white color can only be transformed.
 
 For tutorials. please visit my blog http://takeoffandroid.com/uncategorized/changing-color-of-drawable-icon-programmatically/
