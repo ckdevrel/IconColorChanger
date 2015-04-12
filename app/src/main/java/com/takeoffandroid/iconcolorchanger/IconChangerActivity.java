@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 public class IconChangerActivity extends ActionBarActivity {
@@ -32,7 +33,7 @@ public class IconChangerActivity extends ActionBarActivity {
             public void onClick(View v) {
 
                 String strColorCode = edtColorCode.getText().toString();
-                if (strColorCode != null && strColorCode.length() > 0) {
+                if (strColorCode != null && strColorCode.length() > 0 && strColorCode.length()==7) {
                     mColorCode = Color.parseColor(strColorCode);
 
                     //Get the image to be changed from the drawable, drawable-xhdpi, drawable-hdpi,etc folder.
@@ -46,9 +47,12 @@ public class IconChangerActivity extends ActionBarActivity {
                     mFinalBitmap = Util.changeImageColor(sourceBitmap, mColorCode);
 
                     imgIcon.setImageBitmap(mFinalBitmap);
+                }else {
+
+                    Toast.makeText(IconChangerActivity.this, "Please enter valid color code with '#' followed by code(Eg : #FFFFFF)",Toast.LENGTH_SHORT).show();
+                }
                 }
 
-            }
         });
     }
 
