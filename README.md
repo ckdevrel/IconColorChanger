@@ -1,6 +1,6 @@
 # IconColorChanger
-This is the sample activity class to generate colors for icons using hex codes. 
+IconColorChanger is a custom implementation in which icons with white colors can be transformed in to different colors using hex color codes. It is very useful to maintain icons in the drawable without using multiple resources.
 
-Note: Icons with white color can only be transformed.
+![z](https://cloud.githubusercontent.com/assets/11768239/8147576/501152aa-128f-11e5-88ba-c192db79a2b4.jpg)
 
 For tutorials. please visit my blog http://takeoffandroid.com/uncategorized/changing-color-of-drawable-icon-programmatically/
