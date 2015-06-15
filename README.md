@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-IconColorChanger-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1976)
+
 # IconColorChanger
 IconColorChanger is a custom implementation in which icons with white colors can be transformed in to different colors using hex color codes. It is very useful to maintain icons in the drawable without using multiple resources.
 
